@@ -1,0 +1,80 @@
+/* Start Header */
+header {
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7.2rem;
+  border: 1px solid #1c1c21;
+  padding: 6rem 4.4rem 6em 8rem;
+  background: rgba(26, 26, 26, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 1.6rem;
+  position: fixed;
+  top: 3.2rem;
+  max-width: 182rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.headerNav {
+  display: flex;
+}
+.headerNav nav {
+  margin-right: 1.6rem;
+}
+.headerNav nav ul {
+  display: flex;
+}
+.headerNav nav ul li {
+  list-style: none;
+  background-color: #0f0f0f;
+  border-radius: 1.2rem;
+}
+header .headerNav nav ul li:hover a {
+  color: #e7beb1;
+}
+.headerNav > nav > ul > li > a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.8rem 2.4rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all 0.4 ease;
+  line-height: 150%;
+}
+.headerNav > nav > ul > li:not(:first-child) {
+  margin-left: 1.6rem;
+}
+.headerNav > nav > ul > li:not(:first-child) > a {
+  color: #81807e;
+}
+.headerNav > nav > ul > li:first-child > a {
+  color: #e7beb1;
+}
+.headerNav > .btn {
+  border-radius: 1.2rem;
+  background-color: #ce7d63;
+  cursor: pointer;
+  transition: all 0.4 ease;
+}
+.headerNav > .btn:hover {
+  opacity: 0.8;
+}
+.headerNav > .btn > span {
+  font-size: 1.8rem;
+  line-height: 150%;
+  color: #0f0f0f;
+  font-weight: 500;
+  padding: 1.8rem 2.4rem;
+  text-transform: uppercase;
+  font-family: "Be Vietnam Pro", sans-serif !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,71 @@
+.hero {
+  display: flex;
+  margin-top: 5rem;
+  height: 75rem;
+}
+.hero > .hero-info {
+  background-color: #1a1a1a;
+  padding: 10rem 8rem;
+  width: 60%;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+.hero > .image {
+  width: 40%;
+}
+.hero > .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+.hero > .hero-info > div {
+  margin-top: 12.4rem;
+}
+.hero > .hero-info > div > span {
+  padding: 1.4rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0f0f0f;
+  background-color: #ce7d63;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  line-height: 150%;
+  font-weight: 500;
+  border-radius: 1.2rem;
+}
+.hero > .hero-info > h1 {
+  font-weight: 600;
+  font-size: 6.8rem;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #f9efec;
+  margin-top: 1rem;
+}
+.hero > .hero-info > ul {
+  display: flex;
+  justify-content: space-between;
+  max-width: 40rem;
+}
+.hero > .hero-info > ul > li {
+  list-style: none;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #ce7d63;
+}
+.hero > .hero-info > ul > li:nth-child(2),
+.hero > .hero-info > ul > li:nth-child(4) {
+  width: 2px;
+  background-color: #ce7d63;
+}
+.hero > .hero-info > p {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 150%;
+  color: #676665;
+  margin-top: 4rem;
+}
